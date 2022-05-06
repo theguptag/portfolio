@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganpat Gupta | Web Developer</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style type="text/css">
+        .main-container {
+            height: 100%;
+        }
+
+
+        .gallery {
+            display: flex;
+            padding: 5em 0;
+        }
+
+        .column {
+
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            grid-gap: 6px;
+            width: 100%;
+        }
+
+        .item {
+            overflow: hidden;
+            position: relative;
+            width: 20em;
+            height: 20em;
+        }
+
+        .img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/skills.html">Skills</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li class="active-nav"><a href="/captures.html">Captures</a></li>
+                    <button onclick="myFunction()"><img src="./images/dark-mode.png" alt=""></button>
+                </ul>
+            </nav>
+            <div class="insta-feed-container">
+
+                <div id="instafeed-container" class="gallery">
+                    <div class="column" id="column">
+
+                    </div>
+                </div>
+
+
+
+                <script
+                    src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+                <script type="text/javascript">
+                    var userFeed = new Instafeed({
+                        get: 'user',
+                        target: "column",
+                        resolution: 'low_resolution',
+                        accessToken: 'IGQVJYelRWMnQ1cmJ6UU9UTHBaeldPYks2LXdMTk4tOXZAEaWFKMk9UU2xRZA1VBMldFM0VqOGhUbW9YM2VZAa2JwS2FtZAlFRRHVhSS1YVTliRXBlQkREamJwMzQ4YmN5aHU4WGFBdUludmVLUEJ1dzI1bAZDZD',
+                        template: `<div class="item">
+	      <a href="{{link}}" class="imglink">
+	        <div style="    background: url({{image}});
+    background-origin: content-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;" class="img"></div>
+	      </a>
+	    </div>`
+                    });
+
+
+                    userFeed.run();
+                </script>
+            </div>
+
+            <hr>
+            <footer class="footer">
+                <div>Made with ❤ in India</div>
+                <div class="mail-footer"><a href="mailto:ganpatgupta999@gmail.com">Get In Touch 📧</a></div>
+
+            </footer>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
