@@ -169,7 +169,7 @@ ul li a {
 
 hr {
     width: 90%;
-    border-top: 1px solid #9092952d;
+    border-top: 1px solid #cccecf21;
 
 }
 
@@ -204,6 +204,12 @@ button {
 
 button img {
     width: 2.5rem;
+    width: 2.5rem;
+    border: 1px solid #f3eaea18;
+    border-radius: 50%;
+    background: #fff8f89c;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.233);
+    padding: 0.1em;
 }
 
 .dark-mode {
@@ -421,6 +427,7 @@ button img {
     margin-bottom: 1.5rem;
     border-radius: 1px;
 }
+
 
 
 
