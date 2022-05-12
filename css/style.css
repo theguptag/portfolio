@@ -520,12 +520,6 @@ button img {
         width: 20em;
     }
 
-    .blog-page-wrapper img {
-        width: 40em;
-        background: grey;
-        margin-bottom: 1.5rem;
-        border-radius: 1px;
-    }
 
     .blog-right-text h1 {
         font-size: 1.8em;
@@ -610,8 +604,6 @@ button img {
 
 
 }
-
-
 
 
 
