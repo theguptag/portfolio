@@ -246,7 +246,6 @@ button img {
 
 .skills-para p {
     font-size: 1.6rem;
-    border-bottom: 2px solid #D6C8C3;
 }
 
 .skills-para h2 {
@@ -344,6 +343,7 @@ button img {
     border-radius: 0.2rem;
 
 }
+
 
 .blog-container img:hover {
     opacity: 0.9;
