@@ -191,6 +191,7 @@ hr {
 
 .mail-footer a {
     color: #909295;
+    font-size: 1.4rem;
     text-decoration: none;
 }
 
@@ -289,16 +290,19 @@ button img {
 
 
 .interest p {
-    font-size: 1.5rem;
+    display: inline-block;
+    font-size: 1.6rem;
     font-weight: 500;
     font-family: 'Source Sans Pro', sans-serif;
-    box-shadow: 0px 2px 6px rgba(155, 149, 149, 0.075);
+    box-shadow: 0px 2px 6px rgba(155, 149, 149, 0.219);
     margin: 1rem;
-    border-radius: 0.2em;
+    border-radius: 0.3em;
     padding: 0.3em;
-    color: rgb(32, 33, 34);
-    text-transform: uppercase;
+    color: rgb(19, 20, 20);
+    /* text-transform: uppercase; */
+    /* background-color: #fff8f8; */
 }
+
 
 
 
@@ -432,9 +436,6 @@ button img {
     margin-bottom: 1.5rem;
     border-radius: 1px;
 }
-
-
-
 
 
 /* ------------------- media queries -------------------- */
