@@ -9,6 +9,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    user-select: none;
 }
 
 html {
@@ -84,6 +85,15 @@ ul li a {
     align-items: center;
     width: 100%;
     flex: 1;
+}
+
+#dark-mode-img {
+    position: absolute;
+    opacity: 1;
+}
+
+#light-mode-img {
+    opacity: 0;
 }
 
 /* -------------------------------------------- profile wrapper -------------------------------- */
@@ -242,11 +252,13 @@ button img {
 .skills-para h1 {
 
     font-size: 2.5rem;
+    text-shadow: 2px 2px 8px #d6c8c3c2;
+    margin: 0 auto;
     margin-bottom: 1rem;
 }
 
 .skills-para p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 .skills-para h2 {
@@ -301,6 +313,7 @@ button img {
     color: rgb(19, 20, 20);
     /* text-transform: uppercase; */
     /* background-color: #fff8f8; */
+
 }
 
 
@@ -517,12 +530,23 @@ button img {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 576px) {
+
+    .skills-para h1 {
+        font-size: 1.9rem;
+        margin: 0 auto;
+    }
+
+    .skills-para {
+        text-align: center;
+    }
+
+
     .blog-container img {
         width: 20em;
     }
 
     .blog-page-wrapper img {
-        width: 35em;
+        width: 40em;
         background: grey;
         margin-bottom: 1.5rem;
         border-radius: 1px;
@@ -548,6 +572,15 @@ button img {
 @media only screen and (max-width: 480px) {
     .navbar ul {
         font-size: 1.2em;
+    }
+
+    .skills-para h1 {
+        font-size: 1.9rem;
+        margin: 0 auto;
+    }
+
+    .skills-para {
+        text-align: center;
     }
 
     button img {
@@ -616,6 +649,21 @@ button img {
 @media only screen and (max-width: 320px) {
     .navbar ul {
         font-size: 1.2em;
+    }
+
+
+    .skills-para h1 {
+        font-size: 1.4rem;
+        margin: 0 auto;
+    }
+
+    .skills-para p {
+        font-size: 1.2rem;
+    }
+
+
+    .skills-para {
+        text-align: center;
     }
 
     button img {
