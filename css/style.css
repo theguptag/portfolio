@@ -252,7 +252,7 @@ button img {
 .skills-para h1 {
 
     font-size: 2.5rem;
-    text-shadow: 2px 2px 8px #d6c8c3c2;
+    text-shadow: 2px 2px 8px #ccc8c7c2;
     margin: 0 auto;
     margin-bottom: 1rem;
 }
@@ -534,12 +534,16 @@ button img {
     .skills-para h1 {
         font-size: 1.9rem;
         margin: 0 auto;
+        margin-bottom: 0.5em;
     }
 
     .skills-para {
         text-align: center;
     }
 
+    .skills-para p {
+        font-size: 1.4rem;
+    }
 
     .blog-container img {
         width: 20em;
@@ -577,6 +581,7 @@ button img {
     .skills-para h1 {
         font-size: 1.9rem;
         margin: 0 auto;
+        margin-bottom: 0.5em;
     }
 
     .skills-para {
@@ -655,6 +660,7 @@ button img {
     .skills-para h1 {
         font-size: 1.4rem;
         margin: 0 auto;
+        margin-bottom: 0.5em;
     }
 
     .skills-para p {
@@ -727,9 +733,6 @@ button img {
 
 
 }
-
-
-
 
 
 
