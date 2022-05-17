@@ -319,7 +319,39 @@ button img {
     flex: 1;
 }
 
+/* ---------------tool tip------------------- */
 
+.tooltip {
+    position: relative;
+    display: inline-block;
+    padding: 0.3em;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 7em;
+    background-color: #CAC5C1;
+    color: #252523;
+    text-align: center;
+    border-radius: 1px;
+    padding: 4px 0;
+    font-size: 1.4rem;
+    font-weight: 300;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    left: -20px;
+    top: -30%;
+}
+
+.tooltip p {
+    text-align: center;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
 
 .interest p {
     display: inline-block;
@@ -331,8 +363,6 @@ button img {
     border-radius: 0.3em;
     padding: 0.3em;
     color: rgb(19, 20, 20);
-    /* text-transform: uppercase; */
-    /* background-color: #fff8f8; */
 
 }
 
@@ -473,10 +503,10 @@ button img {
 
 /* ------------------- media queries -------------------- */
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+
 @media only screen and (max-width: 1200px) {}
 
-/* Large devices (laptops/desktops, 992px and up) */
+
 @media only screen and (max-width: 992px) {
     .container {
         width: 90%;
@@ -500,7 +530,7 @@ button img {
     }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+
 @media only screen and (max-width: 768px) {
 
     .main-container {
@@ -548,7 +578,6 @@ button img {
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 576px) {
 
     .skills-para h1 {
@@ -752,37 +781,3 @@ button img {
     }
 
 }
-
-
-/* ---------------tool tip------------------- */
-
-.tooltip {
-    position: relative;
-    display: inline-block;
-    padding: 0.3em;
-}
-
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 7em;
-    background-color: #CAC5C1;
-    color: #252523;
-    text-align: center;
-    border-radius: 1px;
-    padding: 4px 0;
-    font-size: 1.4rem;
-    font-weight: 300;
-
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    left: -20px;
-    top: -30%;
-}
-
-.tooltip p {
-    text-align: center;
-}
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
