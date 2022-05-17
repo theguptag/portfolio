@@ -207,6 +207,8 @@ hr {
 }
 
 .footer img {
+    width: 1.1em;
+    height: 1.1em;
     position: relative;
     top: 4px;
 }
