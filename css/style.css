@@ -520,10 +520,6 @@ button img {
         flex-direction: column;
     }
 
-    .left-skills-info {
-        width: 80%;
-    }
-
     .right-skills-info {
         width: 80%;
         padding-top: 0;
@@ -550,10 +546,6 @@ button img {
         background: grey;
         margin-bottom: 1.5rem;
         border-radius: 1px;
-    }
-
-    .left-skills-info {
-        width: 90%;
     }
 
     .right-skills-info {
@@ -613,10 +605,6 @@ button img {
         font-size: 1.2em;
     }
 
-    .left-skills-info p {
-        text-align: justify;
-    }
-
     .navbar ul {
         font-size: 1.3em;
     }
@@ -658,10 +646,6 @@ button img {
         margin-right: 1em;
     }
 
-    .left-skills-info {
-        padding-left: 1em;
-        padding-right: 1em;
-    }
 
     .right-skills-info {
         padding-left: 1em;
